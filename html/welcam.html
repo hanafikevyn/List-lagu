@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Datang</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(point.JPG);
+            color: #000000;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgba(183, 0, 255, 0.601);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+        }
+
+        .welcome {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .welcome h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .welcome p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .action {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .action input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: #6ab04c;
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .action input[type="submit"]:hover {
+            background-color: #4e8542;
+        }
+
+        .tasks {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .task {
+            flex-basis: calc(33.33% - 20px);
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s;
+        }
+
+        .task:hover {
+            transform: translateY(-5px);
+        }
+
+        .task h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .task p {
+            font-size: 1.1em;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="welcome">
+            <h1>Selamat Datang!</h1>
+            <p>Selamat datang di situs kami. Terima kasih sudah berkunjung.</p>
+        </div>
+        <div class="action">
+            <form action="file:///C:/Users/IRL/Desktop/html/listtest.html" method="get">
+                <input type="submit" value="Enter">
+            </form>
+        </div>
+        <div class="tasks">
+            <div class="task">
+                <h2>Hanafi</h2>
+                <p>Membuat login site</p>
+            </div>
+            <div class="task">
+                <h2>Nunez</h2>
+                <p>Nge revamp code</p>
+            </div>
+            <div class="task">
+                <h2>Ripat</h2>
+                <p>Membuat list music</p>
+            </div>
+            <div class="task">
+                <h2>Isal</h2>
+                <p>Membuat site welcome</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
